@@ -19,4 +19,7 @@ python src/run_model_training.py --model-config 'config/monai_resnet_34_23_clini
 
 ## Explainable AI
 
+The notebook located at `src/xai/visualize_xai.ipynb` generates the attention maps for a given model. 
+
+The scripts and notebooks located in `src/visualizing` can then be used to visualize the generated attention maps. 
 
