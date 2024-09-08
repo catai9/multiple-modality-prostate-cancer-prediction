@@ -1,0 +1,10 @@
+image_dir: "data/pca_processed_data"
+metadata_loc: "data/pca_processed_data/global_labels.csv"
+path_to_weights: "models/monai_resnet_34_23.pth"
+output_dir: "pca-results/no_freeze_monai_resnet_34_23_"
+server_name: "server"
+model_type: clinical_sig
+num_samples: 200
+total_epochs: 40
+learning_rate: 0.001
+is_train_transform: false
